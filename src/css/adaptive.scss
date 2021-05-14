@@ -182,7 +182,7 @@
 	.header__text {
 		width: 360px;
 		font-size: 4.5vw;
-		line-height: 23px;
+		line-height: 140%;
 	}
 	.header__girl {
 		position: absolute;
@@ -212,7 +212,7 @@
 		bottom: 13px;
 	}
 	.travel__name {
-		font-size: 11px;
+		font-size: 9px;
 		line-height: 120%;
 	}
 	.travel__3 {
@@ -318,8 +318,8 @@
 	}
 	.header__text {
 		width: 90vw;
-		font-size: 20px;
-		line-height: 23px;
+		//font-size: 20px;
+		//line-height: 23px;
 	}
 	.header__order-btn {
 		width: 90vw;

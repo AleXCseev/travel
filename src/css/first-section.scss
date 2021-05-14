@@ -68,8 +68,9 @@
 }
 
 .slide__img {
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
+	//min-height: 100%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
