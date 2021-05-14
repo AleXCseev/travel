@@ -165,7 +165,7 @@ body {
 }
 
 .travel__img {
-  width: 100%;
+  width: 101%;
   height: auto;
   position: absolute;
   top: 50%;
@@ -364,8 +364,8 @@ body {
 }
 
 .slide__img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1112,6 +1112,13 @@ body {
     margin-top: 5vw;
     padding-bottom: 5vw;
   }
+  .footer__plane {
+    position: absolute;
+    top: -27vw;
+    right: -7.5vw;
+    z-index: 1;
+    width: 60vw;
+  }
   .footer__title {
     font-size: 17vw;
     line-height: 120%;
@@ -1156,19 +1163,19 @@ body {
   }
   .header__title {
     font-size: 72px;
-    margin-bottom: 60px;
+    margin-bottom: 56px;
     line-height: 110%;
   }
   .header__text {
     width: 360px;
-    font-size: 20px;
+    font-size: 4.5vw;
     line-height: 23px;
   }
   .header__girl {
     position: absolute;
     top: 20px;
     right: -65px;
-    width: 260px;
+    width: 280px;
   }
   .travels {
     position: static;
@@ -1229,7 +1236,7 @@ body {
   .slide__title {
     font-size: 6.5vw;
     line-height: 120%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .slide__text {
     font-size: 3.5vw;
@@ -1244,6 +1251,30 @@ body {
   .slide__top span {
     font-size: 5vw;
     line-height: 120%;
+  }
+  .slick-track {
+    height: 68vw;
+  }
+  .main__section {
+    background-size: 700px;
+  }
+  .footer__plane {
+    top: -30vw;
+    right: -19vw;
+    width: 75vw;
+  }
+  .footer__section {
+    margin-top: 14vw;
+    padding-bottom: 10vw;
+  }
+  .footer__title {
+    display: none;
+  }
+  .footer__text {
+    width: 90vw;
+    font-size: 5vw;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
 }
 
