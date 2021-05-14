@@ -165,7 +165,7 @@
 	.header__content {
 		margin-top: 30px;
 		align-items: flex-start;
-		margin-bottom: 80px;
+		margin-bottom: 12vw;
 	}
 	.header__mountins {
 		display: none;
@@ -175,7 +175,7 @@
 		line-height: 27px;
 	}
 	.header__title {
-		font-size: 72px;
+		font-size: 17vw;
 		margin-bottom: 56px;
 		line-height: 110%;
 	}
@@ -231,11 +231,11 @@
 		margin-bottom: 10vw;
 	}
 	.slider {
-		width: calc(100% - 30px);
+		width: 100%;
 		height: 70vw;
 	}
 	.slide {
-		margin: 0;
+		margin: 0 15px;
 		height: 64vw;
 	}
 	.slick-dots {
