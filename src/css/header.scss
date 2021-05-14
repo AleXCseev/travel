@@ -18,7 +18,9 @@
 	height: 640px;
 	position: absolute;
 	top: 131px;
-	left: -160px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-left: -536px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
